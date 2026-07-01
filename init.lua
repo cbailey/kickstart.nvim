@@ -99,6 +99,9 @@ do
   --  See `:help hlsearch`
   vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
+  -- Neotree toggle
+  vim.keymap.set('n', '<leader>e', ':Neotree toggle<cr>', { desc = "NeoTree File Browser" })
+
   -- Diagnostic Config & Keymaps
   --  See `:help vim.diagnostic.Opts`
   vim.diagnostic.config {
