@@ -12,9 +12,9 @@ vim.keymap.set('n', '\\', '<Cmd>Neotree reveal<CR>', { desc = 'NeoTree reveal', 
 require('neo-tree').setup {
   filesystem = {
     window = {
+      position = "right",
       mappings = {
         ['\\'] = 'close_window',
-        position = "right",
       },
     },
   },
